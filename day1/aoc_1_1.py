@@ -1,7 +1,7 @@
 
 numbers = []
 
-with open('input.txt') as input_file:
+with open('input_day1.txt') as input_file:
     for line in input_file:
         numbers.append(int(line.strip()))
 
